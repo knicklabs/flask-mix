@@ -43,7 +43,7 @@ Will output this:
 
 ### Manage Assets with Laravel Mix
 
-1. In the project root, alonside the `static` and `templates` directories, create 
+1. In the project root, along side the `static` and `templates` directories, create 
 an `assets` directory.
 2. Add a `package.json` file to the `assets` directory and install the
 dependencies for Laravel Mix: `npm i -D laravel-mix cross-env`.
@@ -107,7 +107,8 @@ Follow these steps to get going:
 
 ## Credits
 
-This library was based off of [flask-webpack](https://github.com/nickjj/flask-webpack/tree/master/flask_webpack).
+This library was based off of [flask-webpack](https://github.com/nickjj/flask-webpack/tree/master/flask_webpack) and
+[flask-manage-webpack](https://pypi.org/project/Flask-Manage-Webpack/).
 
 ## License
 
