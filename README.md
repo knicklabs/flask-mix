@@ -25,6 +25,22 @@ app = Flask(__name__, static_url_path='', static_folder='static')
 mix.init_app(app)
 ```
 
+### Use Mix in Templates
+
+Use the `mix()` template helper to get a versioned path to an asset.
+
+For example, this:
+
+```
+<link rel="stylesheet" href="{{ mix('/css/app.css') }}" />
+```
+
+Will output this:
+
+```
+<link rel="stylesheet" href="/css/app.css?id=875403388f63c4da5686" />
+```
+
 ### Manage Assets with Laravel Mix
 
 1. In the project root, alonside the `static` and `templates` directories, create 
