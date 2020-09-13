@@ -20,6 +20,7 @@ setup(
     author_email='nickolas@knicklabs.com',
     description='Integrates Laravel Mix with Flask',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     py_modules=['flask_mix'],
     zip_safe=False,
     include_package_data=True,
